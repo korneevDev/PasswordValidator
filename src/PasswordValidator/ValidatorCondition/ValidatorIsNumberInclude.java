@@ -1,16 +1,13 @@
 package PasswordValidator.ValidatorCondition;
 
-public class ValidarorIsNumberInclude implements ValidationCondition{
+public class ValidatorIsNumberInclude implements ValidationCondition {
     @Override
     public boolean checkCondition(String string){
-        for (Character letter : string.toCharArray()){
-            letter.
-        }
-        return ;
+        return string.matches(".*\\d.*");
     }
 
     @Override
     public String getDescription(){
-        return "Is number included in password";
+        return "Is number included in password?";
     }
 }

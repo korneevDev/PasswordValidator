@@ -1,2 +1,7 @@
-package PasswordValidator;public interface Validator {
+package PasswordValidator;
+
+import PasswordValidator.ValidationResult.ValidationResult;
+
+public interface Validator {
+    ValidationResult isValid(String string);
 }

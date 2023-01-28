@@ -1,6 +1,6 @@
 package PasswordValidator.ValidatorCondition;
 
-public class ValidationIsLetterLowerCaseInclude implements ValidationCondition {
+public class ValidatorIsLetterLowerCaseInclude implements ValidationCondition {
     @Override
     public boolean checkCondition(String string){
         return string.matches(".*[a-z].*");

@@ -1,2 +1,5 @@
-package PasswordValidator;public interface ValidationResultInterface {
+package PasswordValidator.ValidationResult;
+
+public interface ValidationResult {
+    boolean getStatus();
 }
